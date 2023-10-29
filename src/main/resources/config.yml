@@ -1,0 +1,26 @@
+database:
+  host: 'host'  # Replace with your database host (e.g., 'localhost' or an IP address)
+  port: 3306        # Replace with your database port (e.g., 3306 for MySQL)
+  name: 'name'  # Replace with your database name
+  username: 'username'  # Replace with your database username
+  password: 'password'  # Replace with your database password
+
+
+# Use the same format to add unlimited amount of particles
+particles:
+  HEART_PARTICLE:
+    display: "Heart Particle"
+    description:
+      - "Hearts!"
+    material: "REDSTONE"
+    slot: 0
+    permission: "particles.heart"
+    particle: "HEART"
+  FLAME_PARTICLE:
+    display: "Flame Particle"
+    description:
+      - "Flames!"
+    material: "FLINT_AND_STEEL"
+    slot: 1
+    permission: "particles.flame"
+    particle: "FLAME"
